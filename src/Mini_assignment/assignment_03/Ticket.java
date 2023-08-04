@@ -1,4 +1,4 @@
-package Mini_assignment.assginment_03;
+package Mini_assignment.assignment_03;
 
 import java.util.Scanner;
 
