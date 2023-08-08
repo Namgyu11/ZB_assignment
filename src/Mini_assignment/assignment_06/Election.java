@@ -8,9 +8,9 @@ public class Election {
         LinkedList<String> cdList = new LinkedList<>();
         HashMap<String, Integer> cdMap = new HashMap<>();
 
-        int vote = 0;
-        int candidate = 0;
-        String name = "a";
+        int vote;
+        int candidate;
+        String name;
         while (true) {
             System.out.print("총 진행할 투표수를 입력해주세요. ");
             vote = sc.nextInt();
