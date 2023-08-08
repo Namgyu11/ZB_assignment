@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="주민등록번호 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_05/CalendarTest.java" afterDir="false" />
+    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="달력 만들기">
+      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +44,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.CalendarTest">
+  <component name="RunManager" selected="애플리케이션.Election">
     <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_05.CalendarTest" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Mini_assignment.assignment_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Election" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_06.Election" />
+      <module name="ZB_assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mini_assignment.assignment_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,9 +99,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Election" />
+        <item itemvalue="애플리케이션.paper" />
         <item itemvalue="애플리케이션.CalendarTest" />
         <item itemvalue="애플리케이션.RRnumber" />
-        <item itemvalue="애플리케이션.paper" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +117,7 @@
       <workItem from="1690959315546" duration="7219000" />
       <workItem from="1691026866917" duration="7604000" />
       <workItem from="1691110959755" duration="7841000" />
-      <workItem from="1691389058432" duration="1522000" />
+      <workItem from="1691389058432" duration="15104000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -133,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691111043355</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="달력 만들기">
+      <created>1691402934631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691402934631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +175,27 @@
     <MESSAGE value="구구단 프로그램" />
     <MESSAGE value="놀이공원 입장료 프로그램" />
     <MESSAGE value="주민등록번호 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="주민등록번호 프로그램" />
+    <MESSAGE value="달력 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="달력 만들기" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_04/paper.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_04/paper.java</url>
+          <line>5</line>
+          <properties class="Mini_assignment.assignment_04.paper" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
