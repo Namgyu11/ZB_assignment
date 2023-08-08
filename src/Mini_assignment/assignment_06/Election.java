@@ -8,35 +8,28 @@ public class Election {
         LinkedList<String> cdList = new LinkedList<>();
         HashMap<String, Integer> cdMap = new HashMap<>();
 
-        int vote;
-        int candidate;
-        String name;
-        while (true) {
+        int vote = 0;
+        int candidate = 0;
+        String name = "";
+        while (vote < 1 || vote > 10000) {
             System.out.print("총 진행할 투표수를 입력해주세요. ");
             vote = sc.nextInt();
-            if (vote >= 1 && vote <= 10000) {
-                break;
-            } else {
+            if (vote < 1 || vote > 10000) {
                 System.out.println("투표수는 1~10000사이의 값을 입력해주세요");
             }
         }
-        while (true) {
+        while (candidate < 2 || candidate > 10) {
             System.out.print("가상 선거를 진행할 후보자 인원을 입력해주세요. ");
             candidate = sc.nextInt();
-            if (candidate >= 2 && candidate <= 10) {
-                break;
-            } else {
+            if (candidate < 2 || candidate > 10) {
                 System.out.println("후보자 인원 수는 2~10 사이의 값을 입력해주세요");
-
             }
         }
         for (int i = 1; i <= candidate; i++) {
-            while (true) {
+            while (name.length() >= 10 || name.isEmpty()) {
                 System.out.print(i + "번째 후보자 이름을 입력해주세요. ");
                 name = sc.next();
-                if (name.length() < 10) {
-                    break;
-                } else {
+                if (name.length() >= 10) {
                     System.out.println("후보자 이름은 10자 미만으로 입력하세요.");
                 }
             }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="달력 만들기">
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="선거 프로그램">
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1690959315546" duration="7219000" />
       <workItem from="1691026866917" duration="7604000" />
       <workItem from="1691110959755" duration="7841000" />
-      <workItem from="1691389058432" duration="15104000" />
+      <workItem from="1691389058432" duration="15410000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -154,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691402934631</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="선거 프로그램">
+      <created>1691479663548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691479663548</updated>
+    </task>
+    <task id="LOCAL-00007" summary="선거 프로그램">
+      <created>1691479695322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691479695322</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +189,8 @@
     <MESSAGE value="놀이공원 입장료 프로그램" />
     <MESSAGE value="주민등록번호 프로그램" />
     <MESSAGE value="달력 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="달력 만들기" />
+    <MESSAGE value="선거 프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="선거 프로그램" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
