@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="로또 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_07/Lotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +44,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Lotto">
-    <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_05.CalendarTest" />
+  <component name="RunManager" selected="애플리케이션.CalculationProgram">
+    <configuration name="CalculationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_08.CalculationProgram" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_05.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Lotto" />
+        <item itemvalue="애플리케이션.CalculationProgram" />
         <item itemvalue="애플리케이션.paper" />
+        <item itemvalue="애플리케이션.Lotto" />
         <item itemvalue="애플리케이션.Mini_assignment.assignment_04.Lotto" />
         <item itemvalue="애플리케이션.Election" />
-        <item itemvalue="애플리케이션.CalendarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +131,7 @@
       <workItem from="1690959315546" duration="7219000" />
       <workItem from="1691026866917" duration="7604000" />
       <workItem from="1691110959755" duration="7841000" />
-      <workItem from="1691389058432" duration="25946000" />
+      <workItem from="1691389058432" duration="34884000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691480063169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="로또 프로그램">
+      <created>1691570402598</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691570402598</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,16 +227,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_04/paper.java</url>
-          <line>33</line>
+          <line>35</line>
           <properties class="Mini_assignment.assignment_04.paper">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java</url>
+          <line>7</line>
+          <properties class="Mini_assignment.assignment_08.CalculationProgram" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_04/paper.java</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
