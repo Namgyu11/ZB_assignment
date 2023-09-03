@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="로또 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="세금 계산 프로그램">
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,7 @@
       <workItem from="1690959315546" duration="7219000" />
       <workItem from="1691026866917" duration="7604000" />
       <workItem from="1691110959755" duration="7841000" />
-      <workItem from="1691389058432" duration="34884000" />
+      <workItem from="1691389058432" duration="35077000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691570402598</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="세금 계산 프로그램">
+      <created>1691584099434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691584099434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +226,8 @@
     <MESSAGE value="달력 만들기" />
     <MESSAGE value="선거 프로그램" />
     <MESSAGE value="로또 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="로또 프로그램" />
+    <MESSAGE value="세금 계산 프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="세금 계산 프로그램" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,7 +243,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java</url>
-          <line>7</line>
+          <line>4</line>
           <properties class="Mini_assignment.assignment_08.CalculationProgram" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

@@ -1,8 +1,6 @@
 package Mini_assignment.assignment_08;
 
 import java.util.Scanner;
-
-
 public class CalculationProgram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
