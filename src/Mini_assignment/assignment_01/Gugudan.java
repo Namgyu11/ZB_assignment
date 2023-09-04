@@ -1,7 +1,7 @@
 package Mini_assignment.assignment_01;
 
 /*
- 백엔드 스쿨 16기
+ 백엔드 스쿨 17기
  이름: 하남규
  */
 public class Gugudan {

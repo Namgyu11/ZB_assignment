@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="세금 계산 프로그램">
-      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_99/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_99/Work2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_01/Gugudan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_01/Gugudan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_03/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_03/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_04/RRnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_04/RRnumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +46,22 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.CalculationProgram">
-    <configuration name="CalculationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_08.CalculationProgram" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hagaj\Desktop\냄규\ZB_assignment" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Work2">
+    <configuration name="Cashback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_02.Cashback" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_08.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Election" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_06.Election" />
+    <configuration name="Gugudan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_01.Gugudan" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_06.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,21 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_07.Lotto" />
-      <module name="ZB_assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mini_assignment.assignment_04.Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_04.Lotto" />
+    <configuration name="RRnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_04.RRnumber" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_04.paper" />
+    <configuration name="Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_03.Ticket" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_04.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_99.Work2" />
+      <module name="ZB_assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mini_assignment.assignment_99.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.CalculationProgram" />
-        <item itemvalue="애플리케이션.paper" />
-        <item itemvalue="애플리케이션.Lotto" />
-        <item itemvalue="애플리케이션.Mini_assignment.assignment_04.Lotto" />
-        <item itemvalue="애플리케이션.Election" />
+        <item itemvalue="애플리케이션.Work2" />
+        <item itemvalue="애플리케이션.RRnumber" />
+        <item itemvalue="애플리케이션.Ticket" />
+        <item itemvalue="애플리케이션.Cashback" />
+        <item itemvalue="애플리케이션.Gugudan" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +143,8 @@
       <workItem from="1691026866917" duration="7604000" />
       <workItem from="1691110959755" duration="7841000" />
       <workItem from="1691389058432" duration="35077000" />
+      <workItem from="1693733229193" duration="739000" />
+      <workItem from="1693790570867" duration="10033000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -202,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691584099434</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="세금 계산 프로그램">
+      <created>1693733267101</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693733267101</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

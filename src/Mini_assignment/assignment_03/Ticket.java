@@ -1,10 +1,8 @@
 package Mini_assignment.assignment_03;
 
 import java.util.Scanner;
-
-
 /*
-    백엔드 스쿨 16기
+    백엔드 스쿨 17기
     이름: 하남규
 * */
 public class Ticket {
