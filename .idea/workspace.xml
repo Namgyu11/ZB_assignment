@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="세금 계산 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_99/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_99/Work2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
+    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="과제 리마인드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_01/Gugudan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_01/Gugudan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_03/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_03/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_04/RRnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_04/RRnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_05/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_05/CalendarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mini_assignment/assignment_07/Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mini_assignment/assignment_07/Lotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,32 +33,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hagaj/Desktop/냄규/Java_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hagaj/Desktop/냄규/Java_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hagaj\Desktop\냄규\ZB_assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Work2">
-    <configuration name="Cashback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_02.Cashback" />
+  <component name="RunManager" selected="애플리케이션.CalculationProgram">
+    <configuration name="CalculationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_08.CalculationProgram" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_02.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gugudan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_01.Gugudan" />
+    <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_05.CalendarTest" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_01.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RRnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_04.RRnumber" />
+    <configuration name="Election" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_06.Election" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_04.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_03.Ticket" />
+    <configuration name="Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_07.Lotto" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_03.*" />
+          <option name="PATTERN" value="Mini_assignment.assignment_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CalculationProgram" />
+        <item itemvalue="애플리케이션.Lotto" />
+        <item itemvalue="애플리케이션.Election" />
+        <item itemvalue="애플리케이션.CalendarTest" />
         <item itemvalue="애플리케이션.Work2" />
-        <item itemvalue="애플리케이션.RRnumber" />
-        <item itemvalue="애플리케이션.Ticket" />
-        <item itemvalue="애플리케이션.Cashback" />
-        <item itemvalue="애플리케이션.Gugudan" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +141,8 @@
       <workItem from="1691110959755" duration="7841000" />
       <workItem from="1691389058432" duration="35077000" />
       <workItem from="1693733229193" duration="739000" />
-      <workItem from="1693790570867" duration="10033000" />
+      <workItem from="1693790570867" duration="10198000" />
+      <workItem from="1694049888121" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693733267101</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="과제 리마인드">
+      <created>1693806217184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693806217185</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +253,8 @@
     <MESSAGE value="선거 프로그램" />
     <MESSAGE value="로또 프로그램" />
     <MESSAGE value="세금 계산 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="세금 계산 프로그램" />
+    <MESSAGE value="과제 리마인드" />
+    <option name="LAST_COMMIT_MESSAGE" value="과제 리마인드" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,15 +277,24 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_07/Lotto.java</url>
+          <line>13</line>
+          <properties class="Mini_assignment.assignment_07.Lotto" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_04/paper.java</url>
           <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_07/Lotto.java</url>
+          <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_06/Election.java</url>
           <line>12</line>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

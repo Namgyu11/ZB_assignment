@@ -21,11 +21,19 @@ public class Lotto {
 
         System.out.println("[로또 당첨 프로그램]\n");
 
-        System.out.print("로또 개수를 입력해 주세요.(숫자 1~10): ");
-        int numberOfLotto = sc.nextInt();
-        for (int i = 0; i < numberOfLotto; i++) { // 입력 받은 개수에 따른 로또 번호 랜덤 생성
+        while (true) {
+            System.out.print("로또 개수를 입력해 주세요.(숫자 1~10): ");
+            int numberOfLotto = sc.nextInt();
+            if(numberOfLotto < 1 || numberOfLotto > 10){
+                System.out.println("1에서 10 사이의 수만 입력해주세요.");
+            }else {
+                for (int i = 0; i < numberOfLotto; i++) { // 입력 받은 개수에 따른 로또 번호 랜덤 생성
 
-            list.add(i, lottoNumberCreate());
+                    list.add(i, lottoNumberCreate());
+                }
+                break;
+            }
+
         }
 
         for (int i = 0; i < list.size(); i++) {

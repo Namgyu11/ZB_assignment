@@ -11,26 +11,34 @@ public class Election {
         int vote = 0;
         int candidate = 0;
         String name = "";
-        while (vote < 1 || vote > 10000) {
+        while (true) {
             System.out.print("총 진행할 투표수를 입력해주세요. ");
             vote = sc.nextInt();
             if (vote < 1 || vote > 10000) {
                 System.out.println("투표수는 1~10000사이의 값을 입력해주세요");
+            } else {
+                break;
             }
+
         }
-        while (candidate < 2 || candidate > 10) {
+        while (true) {
             System.out.print("가상 선거를 진행할 후보자 인원을 입력해주세요. ");
             candidate = sc.nextInt();
             if (candidate < 2 || candidate > 10) {
                 System.out.println("후보자 인원 수는 2~10 사이의 값을 입력해주세요");
+            } else {
+                break;
             }
         }
+
         for (int i = 1; i <= candidate; i++) {
-            while (name.length() >= 10 || name.isEmpty()) {
+            while (true) {
                 System.out.print(i + "번째 후보자 이름을 입력해주세요. ");
                 name = sc.next();
                 if (name.length() >= 10) {
                     System.out.println("후보자 이름은 10자 미만으로 입력하세요.");
+                }else {
+                    break;
                 }
             }
             cdList.add(name);

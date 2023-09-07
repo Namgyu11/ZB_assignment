@@ -1,6 +1,7 @@
 package Mini_assignment.assignment_05;
 
 import java.util.Calendar;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CalendarTest {
@@ -8,10 +9,38 @@ public class CalendarTest {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("[달력 출력 프로그램]");
-        System.out.print("달력의 연도를 입력해주세요.(yyyy): ");
-        int year = sc.nextInt();
-        System.out.print("달력의 월을 입력해주세요(mm): ");
-        int month = sc.nextInt();
+
+        int year = 0;
+        int month = 0;
+
+        while(true){
+            try {
+                System.out.print("달력의 연도를 입력해주세요.(yyyy): ");
+                year = sc.nextInt();
+
+                if(year < 1){
+                    throw new InputMismatchException();
+                }
+                break;
+            }catch (InputMismatchException e){
+                System.out.println("유효한 연도를 입력하세요.");
+                sc.nextLine();
+            }
+        }
+        while(true){
+            try {
+                System.out.print("달력의 월을 입력해주세요(mm): ");
+                month = sc.nextInt();
+
+                if(month < 1 || month > 12){
+                    throw new InputMismatchException();
+                }
+                break;
+            }catch (InputMismatchException e){
+                System.out.println("유효한 달(1-12)을 입력하세요.");
+                sc.nextLine();
+            }
+        }
         System.out.println("\n");
         System.out.println("[" + year + "년 " + month + "월" + "]");
 
