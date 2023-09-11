@@ -1,6 +1,7 @@
 package Mini_assignment.assignment_08;
 
 import java.util.Scanner;
+
 public class CalculationProgram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -25,16 +26,14 @@ public class CalculationProgram {
             tax = taxRateResult1;
 
             System.out.printf("%d  *  6%% = %d\n", income, tax);
-        }
-        if (income > 12000000 && income <= 46000000) {
+        } else if (income > 12000000 && income <= 46000000) {
             taxM = income - 12000000;
 
             tax = taxRateResult1 + (int) ((taxM) * 0.15);
             finalDTax = findDTax(income, 1080000, 15);
             System.out.printf("%d * 6%% = %d\n", 120000, taxRateResult1);
             System.out.printf("%d * 15%% = %d\n", taxM, (int) ((taxM) * 0.15));
-        }
-        if (income > 46000000 && income <= 88000000) {
+        } else if (income > 46000000 && income <= 88000000) {
             taxM = income - 12000000 - 34000000;
 
             tax = taxRateResult1 + taxRateResult2 + (int) ((taxM) * 0.24);
@@ -44,11 +43,10 @@ public class CalculationProgram {
             System.out.printf("%d * 6%% =   %d\n", 12000000, taxRateResult1);
             System.out.printf("%d * 15%% =  %d\n", 34000000, taxRateResult2);
             System.out.printf("%d * 24%% =  %d\n", taxM, (int) ((taxM) * 0.24));
-        }
-        if (income > 88000000 && income <= 150000000) {
+        } else if (income > 88000000 && income <= 150000000) {
             taxM = income - 12000000 - 34000000 - 42000000;
 
-            tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + (int) (income * 0.35);
+            tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + (int) ((taxM) * 0.35);
             finalDTax = findDTax(income, 14900000, 35);
 
 
@@ -56,11 +54,10 @@ public class CalculationProgram {
             System.out.printf("%d * 15%% = %d\n", 34000000, taxRateResult2);
             System.out.printf("%d * 24%% = %d\n", 42000000, taxRateResult3);
             System.out.printf("%d * 35%% = %d\n", taxM, (int) ((taxM) * 0.35));
-        }
-        if (income > 150000000 && income <= 300000000) {
+        } else if (income > 150000000 && income <= 300000000) {
             taxM = income - 12000000 - 34000000 - 42000000 - 62000000;
 
-            tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + taxRateResult4 + (int) (income * 0.38);
+            tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + taxRateResult4 + (int) ((taxM) * 0.38);
             finalDTax = findDTax(income, 19400000, 38);
 
             System.out.printf("%d * 6%% = %d\n", 120000, taxRateResult1);
@@ -70,12 +67,11 @@ public class CalculationProgram {
 
             System.out.printf("%d * 38%% = %d\n", taxM, (int) ((taxM) * 0.38));
 
-        }
-        if (income > 300000000 && income <= 500000000) {
+        } else if (income > 300000000 && income <= 500000000) {
             taxM = income - 12000000 - 34000000 - 42000000 - 62000000 - 150000000;
 
             tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + taxRateResult4 + taxRateResult5 +
-                    (int) (income * 0.40);
+                    (int) ((taxM) * 0.40);
             finalDTax = findDTax(income, 25400000, 40);
 
             System.out.printf("%d * 6%% = %d\n", 120000, taxRateResult1);
@@ -86,12 +82,11 @@ public class CalculationProgram {
 
             System.out.printf("%d * 40%% = %d\n", taxM, (int) ((taxM) * 0.40));
 
-        }
-        if (income > 500000000 && income <= 1000000000) {
+        } else if (income > 500000000 && income <= 1000000000) {
             taxM = income - 12000000 - 34000000 - 42000000 - 62000000 - 150000000 - 200000000;
 
             tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + taxRateResult4 + taxRateResult5 +
-                    taxRateResult6 + (int) (income * 0.42);
+                    taxRateResult6 + (int) ((taxM) * 0.42);
             finalDTax = findDTax(income, 35400000, 42);
 
             System.out.printf("%d * 6%% = %d\n", 120000, taxRateResult1);
@@ -102,12 +97,11 @@ public class CalculationProgram {
             System.out.printf("%d * 40%% = %d\n", 150000000, taxRateResult6);
 
             System.out.printf("%d\t*\t42%% = \t%d\n", taxM, (int) ((taxM) * 0.42));
-        }
-        if (income > 1000000000) {
+        } else if (income > 1000000000) {
             taxM = income - 12000000 - 34000000 - 42000000 - 62000000 - 150000000 - 200000000 - 500000000;
 
             tax = taxRateResult1 + taxRateResult2 + taxRateResult3 + taxRateResult4 + taxRateResult5 +
-                    taxRateResult6 + taxRateResult7 + (int) (income * 0.45);
+                    taxRateResult6 + taxRateResult7 + (int) ((taxM) * 0.45);
             finalDTax = findDTax(income, 35400000, 42);
 
             System.out.printf("%d * t6%% = %d\n", 120000, taxRateResult1);
