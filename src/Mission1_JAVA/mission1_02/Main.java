@@ -29,12 +29,18 @@ class Main {
         ArrayList<Point> pointList = new ArrayList<>(); // 좌표를 담을 리스트
         ArrayList<String> checkList = new ArrayList<>(); // 좌표가 중복되어 있는지 체크하는 리스트
 
-        System.out.print("나의 좌표를 입력하세요: ");
-        Point myPoint = new Point(sc.nextInt(), sc.nextInt());
+        System.out.println("내 좌표 x값을 입력하세요: ");
+        int myX = sc.nextInt();
+        System.out.println("내 좌표 y값을 입력하세요: ");
+        int myY = sc.nextInt();
+
+        Point myPoint = new Point(myX, myY);
 
         while (pointList.size() < 10) {
-            System.out.print("임의의 좌표를 입력하세요: ");
+            System.out.printf("%d/10 번째 입력\n", pointList.size() + 1);
+            System.out.print("임의의 좌표 x값을 입력하세요: ");
             int x = sc.nextInt();
+            System.out.print("임의의 좌표 y값을 입력하세요: ");
             int y = sc.nextInt();
 
             String checkStr = x + "," + y; // 중복 체크를 위해 string 값 담기
@@ -44,6 +50,9 @@ class Main {
             } else {
                 System.out.println("동일한 좌표값이 존재합니다. 다시 입력해주세요.");
             }
+        }
+        for (Point point : pointList) {
+            System.out.printf("(%d,%d) => %f\n", point.x, point.y, myPoint.distance(point));
         }
         // 가장 가까운(최소) 거리 값을 저장하기 위해 최댓값으로 초기화
         double minDisPoint = Double.MAX_VALUE;
@@ -58,6 +67,6 @@ class Main {
         }
 
 
-        System.out.printf("나와 가장 가까운 좌표값은 (%d,%d) 입니다.\n", minPoint.x, minPoint.y);
+        System.out.printf("나와 가장 가까운 좌표값은 (%d,%d) => %f\n", Objects.requireNonNull(minPoint).x, minPoint.y, myPoint.distance(minPoint));
     }
 }

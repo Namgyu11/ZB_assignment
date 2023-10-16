@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="과제 리마인드">
-      <change afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/paper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_02/Main.java" afterDir="false" />
+    <list default="true" id="06a79b11-b0d6-4b97-aae8-ee07935c9cc2" name="변경" comment="JAVA_Mission_01">
+      <change afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_03/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/Paper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/paper.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_01/paper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mission1_JAVA/mission1_02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,34 +36,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hagaj/Desktop/냄규/Java_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hagaj/Desktop/냄규/Java_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hagaj\Desktop\냄규\ZB_assignment\src\Mission1_JAVA\mission1_01" />
       <recent name="C:\Users\hagaj\Desktop\냄규\ZB_assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Mission1_JAVA.mission1_02.Main">
-    <configuration name="CalculationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mini_assignment.assignment_08.CalculationProgram" />
+  <component name="RunManager" selected="애플리케이션.Mission1_JAVA.mission1_03.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_03.Main" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mini_assignment.assignment_08.*" />
+          <option name="PATTERN" value="Mission1_JAVA.mission1_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,19 +72,6 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_01.Main" />
-      <module name="ZB_assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mission1_JAVA.mission1_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mission1_JAVA.mission1_02.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_02.Main" />
       <module name="ZB_assignment" />
       <extension name="coverage">
@@ -96,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mission1_JAVA.mission1_02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_02.Main" />
+    <configuration name="Mission1_JAVA.mission1_03.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_03.Main" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mission1_JAVA.mission1_02.*" />
+          <option name="PATTERN" value="Mission1_JAVA.mission1_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_01.Paper" />
+    <configuration name="Mission1_JAVA.mission1_03.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_03.Main" />
       <module name="ZB_assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mission1_JAVA.mission1_01.*" />
+          <option name="PATTERN" value="Mission1_JAVA.mission1_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mission1_JAVA.mission1_03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mission1_JAVA.mission1_03.Main" />
+      <module name="ZB_assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mission1_JAVA.mission1_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Mission1_JAVA.mission1_02.Main" />
-        <item itemvalue="애플리케이션.Mission1_JAVA.mission1_02.Main (1)" />
+        <item itemvalue="애플리케이션.Mission1_JAVA.mission1_03.Main (2)" />
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.Mission1_JAVA.mission1_03.Main (1)" />
+        <item itemvalue="애플리케이션.Mission1_JAVA.mission1_03.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Paper" />
-        <item itemvalue="애플리케이션.CalculationProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +152,8 @@
       <workItem from="1694398594231" duration="5000" />
       <workItem from="1694406209286" duration="42000" />
       <workItem from="1694406259162" duration="3242000" />
-      <workItem from="1697361570621" duration="7691000" />
+      <workItem from="1697361570621" duration="17931000" />
+      <workItem from="1697455721371" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="구구단 프로그램">
       <created>1690963268123</created>
@@ -251,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694420479105</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="JAVA_Mission_01">
+      <created>1697378392774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697378392774</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +286,8 @@
     <MESSAGE value="로또 프로그램" />
     <MESSAGE value="세금 계산 프로그램" />
     <MESSAGE value="과제 리마인드" />
-    <option name="LAST_COMMIT_MESSAGE" value="과제 리마인드" />
+    <MESSAGE value="JAVA_Mission_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA_Mission_01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -314,6 +324,11 @@
           <url>file://$PROJECT_DIR$/src/Mini_assignment/assignment_08/CalculationProgram.java</url>
           <line>21</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Mission1_JAVA/mission1_03/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

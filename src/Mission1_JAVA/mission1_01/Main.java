@@ -28,10 +28,10 @@ public class Main {
         for(Object k : System.getProperties().keySet()){
             String key = k.toString();
             String value = System.getProperty(key);
-            html.append("<tr>\n" +
-                    "      <td>"+ key +"</td>\n" +
-                    "      <td>"+ value +"</td>\n" +
-                    "    </tr>");
+            html.append("<tr>\n" + "      <td>").
+                    append(key).append("</td>\n").
+                    append("      <td>").append(value).append("</td>\n").
+                    append("    </tr>");
         }
         html.append("</table>\n" +
                 "\n" +
